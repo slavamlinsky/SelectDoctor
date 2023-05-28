@@ -1,0 +1,63 @@
+.react-datepicker__current-month {
+  font-size: 1.0625em;
+}
+.react-datepicker-popper {
+  width: 200px;
+}
+
+.react-datepicker {
+  border-radius: 0.75em !important;
+  width: 100%;
+}
+
+.react-datepicker__triangle {
+  left: -80px !important;
+}
+
+.react-datepicker__month-container {
+  width: 100%;
+}
+
+.react-datepicker__today-button {
+  border-radius: 0 0 0.75em 0.75em;
+}
+
+.react-datepicker__header {
+  border-top-left-radius: 0.75em;
+}
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  border-top-right-radius: 0.75em;
+}
+
+.loader {
+  width: 25px;
+  height: 25px;
+  border: 3px solid #86efacaa;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #16a34a transparent;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
