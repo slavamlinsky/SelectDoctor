@@ -16,3 +16,5 @@ You may also see any lint errors in the console.
 
 
 ## Details of the project
+
+spent ~ 25 hours for developing & testing
