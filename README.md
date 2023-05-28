@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Select your Doctor 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The beautiful test task with Formik
 
-## Available Scripts
+### Used technologies & libraries
 
-In the project directory, you can run:
+React.Js, Formik, TailWind.css, DatePicker, MaskedInput
 
 ### `npm start`
 
