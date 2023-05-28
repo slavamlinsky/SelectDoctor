@@ -10,10 +10,10 @@ Data to dropdowns loads from API + full validation
 ~~~
 Application is already deployed, and you can test it by yourself.
 
-Open [demo version](http://localhost:3000) to view it in a browser.
+Hope you will enjoy it. I wish you all the best.
 ~~~
 
-Hope you will enjoy it. I wish you all the best.
+Open [demo version](http://localhost:3000) to view it in a browser.
 
 ## Details of creating project
 started: 25.05.2022
