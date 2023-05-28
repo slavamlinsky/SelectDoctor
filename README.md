@@ -1,20 +1,17 @@
 # Select your Doctor App
 
 The beautiful test task with Formik
+Data to dropdowns loads from API + full validation
 
 ### Used technologies & libraries
 
 React.Js, Formik, TailWind.css, DatePicker, MaskedInput
 
-### `npm start`
+Application is already deployed, and you can test it by yourself.
+Open [demo version](http://localhost:3000) to view it in a browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hope you will enjoy it. I wish you all the best.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-
-## Details of the project
-
-spent ~ 25 hours for developing & testing
+## Details of creating project
+started: 25.05.2022
+time: ~ 25 hours for developing & testing
