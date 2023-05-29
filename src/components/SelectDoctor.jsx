@@ -170,8 +170,7 @@ const SelectDoctor = () => {
             .then((doctors) => {
               setDoctors(
                 doctors
-                  .filter((doctor) => {
-                    // если не выбран возраст - все
+                  .filter((doctor) => {                    
                     return (
                       age === 0 ||
                       (age < 16 && doctor.specialityId !== "12") ||
@@ -181,8 +180,7 @@ const SelectDoctor = () => {
                         doctor.specialityId !== "11") ||
                       (age > 45 && doctor.specialityId !== "11")
                     );
-                    //console.log("Spec > minAge", age + " -- " + specialities.find((speciality) => speciality?.params?.minAge < age)?.id);
-                    //console.log("Spec > maxAge", age + " -- " + specialities.find((speciality) => speciality?.params?.maxAge >= age)?.id);
+                    
                   })
                   .filter((doctor) => {
                     return (
@@ -334,7 +332,7 @@ const SelectDoctor = () => {
                   </option>
                   {cities.map((city) => (
                     <option key={city.id} value={city.id}>
-                      {city.name} ({city.id})
+                      {city.name}
                     </option>
                   ))}
                 </Field>
@@ -368,8 +366,7 @@ const SelectDoctor = () => {
                   </option>
                   {specialities.map((speciality) => (
                     <option key={speciality.id} value={speciality.id}>
-                      {speciality.name} ({speciality.id}) (
-                      {speciality?.params?.gender})
+                      {speciality.name}
                     </option>
                   ))}
                 </Field>
@@ -391,8 +388,7 @@ const SelectDoctor = () => {
                   name="doctor"
                   as="select"
                   value={values.doctor}
-                  onChange={(e) => {
-                    //alert("Doc.Value = " + e.target.value)
+                  onChange={(e) => {                    
                     if (e.target.value !== "0") {
                       setFieldValue(
                         "city",
@@ -415,8 +411,7 @@ const SelectDoctor = () => {
                   </option>
                   {doctors.map((doctor) => (
                     <option key={doctor.id} value={doctor.id}>
-                      {doctor.name} {doctor.surname}({doctor.id}) (
-                      {doctor?.cityId}) {doctor.isPediatrician && "детский"}
+                      {doctor.name} {doctor.surname}
                     </option>
                   ))}
                 </Field>
