@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.module.scss";
+
+import SelectDoctor from "./components/SelectDoctor";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <h1 className={styles.title}>Choose Your Doctor</h1>
+      <div className="flex flex-row justify-between">
+        <SelectDoctor />
+      </div>
     </div>
   );
 }
