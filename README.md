@@ -1,7 +1,8 @@
 # Select your Doctor App
 
-Nice web form for choosing a doctor in yoour city (test task).
-Data to dropdowns loads from API + full validation.
+Nice web form for choosing a doctor in your city (test task).
+
+Data in select dropdowns loads from API, and full form validation.
 
 ### Used technologies & libraries
 
