@@ -1,5 +1,12 @@
 # Select your Doctor App
 
+~~~
+Version 1.1: 
+Fixed Multifetching / Separated loading and filtering data.
+Fixed Bug with age=0, and doctors for "children" only
+Added: Reset form button
+~~~
+
 Nice web form for choosing a doctor in your city (test task).
 
 Data in select dropdowns loads from API, and full form validation.
